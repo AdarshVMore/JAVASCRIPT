@@ -118,7 +118,7 @@ newdiv.setAttribute("title", 'title-div')
 
 
 
-// EVENTLISTENERS
+EVENTLISTENERS
 var button = document.getElementById('button').addEventListener('click', buttonClick)
 var newbutton = document.getElementById('button').addEventListener('click', () => console.log("wassup"))
 var output = document.getElementById('output')
@@ -131,4 +131,5 @@ function buttonClick(x){
     console.log(x.target.id) 
     console.log(x.target.className) 
     output.innerHTML = '<p>'+ x.target.id + '</p>'
+    console.log(x.clientx)
 }

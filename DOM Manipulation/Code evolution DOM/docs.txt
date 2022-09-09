@@ -1,0 +1,6 @@
+DOM is tree of nodes
+every elemret is a node
+
+queryselector selects the first element that matches with the selector
+CSS properties with.style are witten in camelcase and not with - symbol 
+ 
